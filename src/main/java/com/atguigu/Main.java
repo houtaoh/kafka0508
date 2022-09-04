@@ -9,6 +9,7 @@ public class Main {
         TreeNode node1 = new TreeNode();
         TreeNode node2 = new TreeNode();
         System.out.println(dfs(node1,node2));
+        // 11
     }
     public static boolean dfs(TreeNode node1,TreeNode node2){
         if(node1.val == node2.val && (node1.left == null && node1.right == null
